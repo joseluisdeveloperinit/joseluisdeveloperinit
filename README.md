@@ -22,7 +22,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/joseluisdeveloperinit/joseluisdeveloperinit/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/joseluisdeveloperinit/joseluisdeveloperinit/output/snake.svg" alt="Snake animation" width="100%"/>
 </div>
 
 
