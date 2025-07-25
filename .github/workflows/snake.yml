@@ -1,7 +1,7 @@
 name: Update Snake Animation
 on:
   schedule:
-    - cron: "0 0 * * *"  # Se ejecuta diariamente
+    - cron: "30 0 * * *"  # Se ejecuta diariamente
   workflow_dispatch:     # Permite ejecutarlo manualmente
 
 jobs:
