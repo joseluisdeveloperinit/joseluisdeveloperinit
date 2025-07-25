@@ -14,7 +14,7 @@ Fork on Github
 
 ###
 
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="30" alt="vuejs logo"  />
@@ -29,6 +29,5 @@ Fork on Github
 
 
 
-<img src="https://raw.githubusercontent.com/joseluisdeveloperinit/joseluisdeveloperinit/output/snake.svg" alt="Snake animation" />
 
 
