@@ -1,9 +1,4 @@
-.github/workflows
-Your Readme is Done 🎉🎉🎉
-Star This Project
-Fork on Github
-
-<h2 align="left">👋Hi👋 My name is Jose Luis</h2>
+<h2 align="center">👋Hi👋 My name is Jose Luis</h2>
 
 ###
 
