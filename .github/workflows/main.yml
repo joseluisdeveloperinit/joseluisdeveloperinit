@@ -1,21 +1,22 @@
 name: Generate Snake Animation
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     permissions:
-      contents: write  # Permiso mínimo necesario
+      contents: write
 
     steps:
+      # 1. Prepara la carpeta dist
+      - name: Create dist folder
+        run: mkdir -p dist
+
+      # 2. Genera los SVG
       - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
@@ -23,14 +24,17 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # 3. Debug: Verifica archivos
+      - name: Debug files
+        run: |
+          ls -R
+          [ -f dist/github-contribution-grid-snake.svg ] && echo "✅ SVG existe" || echo "❌ SVG no encontrado"
+
+      # 4. Sube al branch output
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          keep_history: true  # Mantiene el historial de commits
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          keep_history: true
