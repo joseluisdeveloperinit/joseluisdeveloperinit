@@ -1,9 +1,5 @@
 <h1 align="center"> Jose Luis </h1>
 
-
-
----
-
 <h3 align="center">🛠️ Tecnologías que uso</h3>
 
 <p align="center">
@@ -29,9 +25,7 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=joseluisdeveloperinit&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisdeveloperinit&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</p>
+
 
 
 
