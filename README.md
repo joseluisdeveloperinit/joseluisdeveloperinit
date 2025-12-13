@@ -1,8 +1,6 @@
-<h1 align="center">✨ Jose Luis ✨</h1>
+<h1 align="center"> Jose Luis </h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=F73B94&center=true&vCenter=true&width=435&lines=Hola%2C+soy+Jose+Luis;Desarrollador+Full+Stack;Amante+de+Java+%26+Vue.js;Siempre+aprendiendo+y+mejorando+🚀" alt="Typing SVG" />
-</p>
+
 
 ---
 
@@ -21,13 +19,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg" height="40" alt="MariaDB" />
 </p>
 
----
-
-<h3 align="center">🏆 Trofeos y logros</h3>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=joseluisdeveloperinit&theme=radical&no-frame=true&row=1&column=7" />
-</p>
 
 ---
 
@@ -42,21 +33,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joseluisdeveloperinit&layout=compact&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
----
 
-<h3 align="center">🐍 Actividad reciente</h3>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/joseluisdeveloperinit/joseluisdeveloperinit/output/snake.svg" alt="Snake animation" width="100%"/>
-</p>
-
----
-
-<h3 align="center">🎵 Spotify ahora mismo</h3>
-
-<p align="center">
-  <img src="https://spotify-now-playing-peach.vercel.app/api/spotify" alt="Spotify Now Playing" />
-</p>
 
 ---
 
